@@ -2,14 +2,16 @@
 
 [ext_resource type="PackedScene" uid="uid://bls7e03uednrc" path="res://scenes/player.tscn" id="1_mtyrm"]
 [ext_resource type="PackedScene" uid="uid://b2rmylgcohnuv" path="res://scenes/pine_tree.tscn" id="2_ubwba"]
+[ext_resource type="PackedScene" uid="uid://b7kfwjamnw1tb" path="res://scenes/mob.tscn" id="3_ubwba"]
 
-[node name="Gmae" type="Node2D" unique_id=174864434]
+[node name="Game" type="Node2D" unique_id=174864434]
 y_sort_enabled = true
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1358522164]
-offset_right = 1918.0
+offset_left = 1.0
+offset_right = 1919.0
 offset_bottom = 1080.0
-color = Color(0.7858131, 0.604203, 0.42622265, 1)
+color = Color(0.46069366, 0.71791893, 0.46529913, 1)
 
 [node name="Tree" parent="." unique_id=1230449169 instance=ExtResource("2_ubwba")]
 position = Vector2(297, 322)
@@ -45,4 +47,16 @@ position = Vector2(593, 176)
 position = Vector2(1695, 881)
 
 [node name="Player" parent="." unique_id=759839312 instance=ExtResource("1_mtyrm")]
-position = Vector2(410, 344)
+position = Vector2(386, 574)
+
+[node name="Mob" parent="." unique_id=974575086 instance=ExtResource("3_ubwba")]
+position = Vector2(817, 264)
+
+[node name="Mob2" parent="." unique_id=211224359 instance=ExtResource("3_ubwba")]
+position = Vector2(299, 1009)
+
+[node name="Mob5" parent="." unique_id=583560598 instance=ExtResource("3_ubwba")]
+position = Vector2(150, 154)
+
+[node name="Mob4" parent="." unique_id=1008346956 instance=ExtResource("3_ubwba")]
+position = Vector2(1573, 997)
