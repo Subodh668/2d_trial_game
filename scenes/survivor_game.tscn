@@ -6,15 +6,18 @@
 
 [node name="Game" type="Node2D" unique_id=174864434]
 y_sort_enabled = true
+position = Vector2(55, -3)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1192380059]
-layer = -10
+layer = -30
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1358522164]
-offset_left = 1.0
-offset_right = 1919.0
-offset_bottom = 1080.0
+offset_left = -4.0
+offset_top = -5.0
+offset_right = 1914.0
+offset_bottom = 1075.0
 color = Color(0.46069366, 0.71791893, 0.46529913, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="Tree" parent="." unique_id=1230449169 instance=ExtResource("2_ubwba")]
 position = Vector2(297, 322)
@@ -50,7 +53,7 @@ position = Vector2(593, 176)
 position = Vector2(1695, 881)
 
 [node name="Player" parent="." unique_id=759839312 instance=ExtResource("1_mtyrm")]
-position = Vector2(386, 574)
+position = Vector2(898, 538)
 
 [node name="Mob" parent="." unique_id=974575086 instance=ExtResource("3_ubwba")]
 position = Vector2(817, 264)
