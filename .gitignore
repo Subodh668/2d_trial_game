@@ -1,0 +1,9 @@
+#Godot
+.godot/
+
+#MacOS
+.DS_Store
+
+#optional
+*.import
+*.mono
